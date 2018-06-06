@@ -9,6 +9,12 @@
 using namespace std;
 
 int main(void){
-    //
+    string s; cin >> s;
+    //わからん。
+    if(s.back()=="T"){
+        cout << "YES" << endl;
+    }else{
+        cout << "NO" << endl;
+    }
     return 0;
 }
