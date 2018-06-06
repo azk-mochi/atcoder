@@ -21,10 +21,11 @@
 		9693D3C020C811050032A948 /* abc011.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9693D3BF20C811050032A948 /* abc011.cpp */; };
 		9693D3C220C811A40032A948 /* abc012.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9693D3C120C811A40032A948 /* abc012.cpp */; };
 		9693D3C420C812C40032A948 /* abc013.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9693D3C320C812C40032A948 /* abc013.cpp */; };
+		9693D3C620C813710032A948 /* abc014.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9693D3C520C813710032A948 /* abc014.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9693D39920C8050F0032A948 /* libatcoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libatcoder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9693D39920C8050F0032A948 /* libatcoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libatcoder.a; path = /Developer/dev/libreishoku/atcoder/build/Debug/libatcoder.a; sourceTree = "<absolute>"; };
 		9693D3A920C80C460032A948 /* abc001.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc001.cpp; sourceTree = "<group>"; };
 		9693D3AB20C80C6E0032A948 /* abc002.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc002.cpp; sourceTree = "<group>"; };
 		9693D3AD20C80C990032A948 /* template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cpp; sourceTree = "<group>"; };
@@ -39,6 +40,7 @@
 		9693D3BF20C811050032A948 /* abc011.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc011.cpp; sourceTree = "<group>"; };
 		9693D3C120C811A40032A948 /* abc012.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc012.cpp; sourceTree = "<group>"; };
 		9693D3C320C812C40032A948 /* abc013.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc013.cpp; sourceTree = "<group>"; };
+		9693D3C520C813710032A948 /* abc014.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc014.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,16 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				9693D3A020C805E30032A948 /* src */,
-				9693D39A20C8050F0032A948 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		9693D39A20C8050F0032A948 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9693D39920C8050F0032A948 /* libatcoder.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9693D3A020C805E30032A948 /* src */ = {
@@ -84,6 +77,7 @@
 				9693D3C120C811A40032A948 /* abc012.cpp */,
 				9693D3AB20C80C6E0032A948 /* abc002.cpp */,
 				9693D3C320C812C40032A948 /* abc013.cpp */,
+				9693D3C520C813710032A948 /* abc014.cpp */,
 				9693D3AD20C80C990032A948 /* template.cpp */,
 			);
 			path = src;
@@ -142,7 +136,7 @@
 				en,
 			);
 			mainGroup = 9693D39020C8050E0032A948;
-			productRefGroup = 9693D39A20C8050F0032A948 /* Products */;
+			productRefGroup = 9693D39020C8050E0032A948;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -164,6 +158,7 @@
 				9693D3AE20C80C990032A948 /* template.cpp in Sources */,
 				9693D3B020C80CC50032A948 /* abc003.cpp in Sources */,
 				9693D3BE20C810550032A948 /* abc010.cpp in Sources */,
+				9693D3C620C813710032A948 /* abc014.cpp in Sources */,
 				9693D3B220C80CD80032A948 /* abc004.cpp in Sources */,
 				9693D3AA20C80C460032A948 /* abc001.cpp in Sources */,
 				9693D3BC20C80FB00032A948 /* abc009.cpp in Sources */,

@@ -1,10 +1,3 @@
-//
-//  abc002.cpp
-//  atcoder
-//
-//  Created by Koshikawa Kenichi on 2018/06/06.
-//  Copyright © 2018年 reishoku. All rights reserved.
-//
 
 #include <iostream>
 

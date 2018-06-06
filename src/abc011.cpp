@@ -7,7 +7,6 @@
 using namespace std;
 
 int A(){
-    string s;
-    cin >> s;
-    cout << s + "pp" << endl;
+    int n; cin >> n;
+    cout << (n % 12) + 1 << endl;
 }

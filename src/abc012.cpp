@@ -7,7 +7,7 @@
 using namespace std;
 
 int A(){
-    string s;
-    cin >> s;
-    cout << s + "pp" << endl;
+    int a, b; cin >> a >> b;
+    cout << b << " " << a << endl;
 }
+

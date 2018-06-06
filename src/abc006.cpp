@@ -7,7 +7,6 @@
 using namespace std;
 
 int A(){
-    string s;
-    cin >> s;
-    cout << s + "pp" << endl;
+    int n; cin >> n;
+    cout << ((n % 10 == 3 || n%3 == 0) ? "YES" : "NO" ) << endl;
 }
