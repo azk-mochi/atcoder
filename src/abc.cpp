@@ -6,7 +6,7 @@
 //  Copyright © 2018年 reishoku. All rights reserved.
 //
 
-#include "abc.hpp"
+#include <iostream>
 
 using namespace std;
 
@@ -29,5 +29,10 @@ void abc002A(){
 void abc003A(){
     int n; cin >> n;
     //式をまとめる。真ん中は等差数列の公式から。
-    cout << (10000 * ((n*(n+1))/2) / n << endl;
+    cout << (10000 * ((n*(n+1))/2)) / n << endl;
+}
+
+void abc004A(){
+    int n; cin >> n;
+    cout << 2 * n << endl;
 }

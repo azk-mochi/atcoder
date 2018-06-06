@@ -1,15 +1,16 @@
 //
-//  misc.cpp
+//  abc001.cpp
 //  atcoder
 //
 //  Created by Koshikawa Kenichi on 2018/06/06.
 //  Copyright © 2018年 reishoku. All rights reserved.
 //
 
-#include "misc.hpp"
+#include <iostream>
 
-//namespace math
-template<typename T>
-T num_digit(int n){
-    return (int)(log10(n)+1);
+using namespace std;
+
+int A(){
+    int h1, h2; cin >> h1 >> h2;
+    cout << h1 - h2 << endl;
 }
