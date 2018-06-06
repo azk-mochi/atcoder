@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main(void){
+int A(void){
     int m, d;
     cin >> m >> d;
     cout << ((m%d==0) ? "YES" : "NO" ) << endl;

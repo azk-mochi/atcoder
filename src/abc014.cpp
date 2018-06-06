@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main(void){
+int A(void){
     int a, b;
     cin >> a >> b;
     cout << ((b - (a%b)==b) ? 0 : (b - (a%b) )) << endl;

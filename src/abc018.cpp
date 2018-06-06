@@ -7,9 +7,14 @@
 
 using namespace std;
 
+
+//わからん。未解決
+
 int A(void){
-    string s, t;
-    cin >> s >> t;
-    cout << ((s.length() > t.length()) ? s : t ) << endl;
+    vector<int> input(3);
+    cin >> input[0] >> input[1] >> input[2];
+    
+    
+    
     return 0;
 }

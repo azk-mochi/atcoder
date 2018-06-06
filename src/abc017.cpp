@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main(void){
+int A(void){
     int s[3]; int e[3];
     for(int i=0;i<3;i++){
         cin >> s[i] >> e[i];

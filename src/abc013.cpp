@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main(void){
+int A(void){
     char x; cin >> x;
     switch(x){
         case 'A':
