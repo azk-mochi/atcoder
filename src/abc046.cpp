@@ -1,14 +1,14 @@
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <string>
+#include <complex>
+#include <fstream>
+#include <cmath>
 
 using namespace std;
 
-int A(){
-    int n; cin >> n;
-    cout << ((n%2==0) ? n/2 : ((n+1)/2) ) << endl;
+int main(void){
+    //
+    return 0;
 }
-
-
