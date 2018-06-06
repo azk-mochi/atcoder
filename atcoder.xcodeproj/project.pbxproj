@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		966E725420C8996F00B28543 /* abc031.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 966E725320C8996F00B28543 /* abc031.cpp */; };
 		9693D3AA20C80C460032A948 /* abc001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9693D3A920C80C460032A948 /* abc001.cpp */; };
 		9693D3AC20C80C6E0032A948 /* abc002.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9693D3AB20C80C6E0032A948 /* abc002.cpp */; };
 		9693D3AE20C80C990032A948 /* template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9693D3AD20C80C990032A948 /* template.cpp */; };
@@ -41,7 +42,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9693D39920C8050F0032A948 /* libatcoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libatcoder.a; path = /Developer/dev/libreishoku/atcoder/build/Debug/libatcoder.a; sourceTree = "<absolute>"; };
+		966E725220C898FC00B28543 /* libatcoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libatcoder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		966E725320C8996F00B28543 /* abc031.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc031.cpp; sourceTree = "<group>"; };
 		9693D3A920C80C460032A948 /* abc001.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc001.cpp; sourceTree = "<group>"; };
 		9693D3AB20C80C6E0032A948 /* abc002.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc002.cpp; sourceTree = "<group>"; };
 		9693D3AD20C80C990032A948 /* template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cpp; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				9693D3E720C823B90032A948 /* open_webpage.sh */,
 				9693D3A020C805E30032A948 /* src */,
+				966E725220C898FC00B28543 /* libatcoder.a */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +132,7 @@
 				9693D3C720C815290032A948 /* abc015.cpp */,
 				9693D3C520C813710032A948 /* abc014.cpp */,
 				9693D3AD20C80C990032A948 /* template.cpp */,
+				966E725320C8996F00B28543 /* abc031.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -160,7 +164,7 @@
 			);
 			name = atcoder;
 			productName = atcoder;
-			productReference = 9693D39920C8050F0032A948 /* libatcoder.a */;
+			productReference = 966E725220C898FC00B28543 /* libatcoder.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -221,6 +225,7 @@
 				9693D3D420C81BC00032A948 /* abc021.cpp in Sources */,
 				9693D3E020C81FC40032A948 /* abc027.cpp in Sources */,
 				9693D3CC20C816900032A948 /* abc017.cpp in Sources */,
+				966E725420C8996F00B28543 /* abc031.cpp in Sources */,
 				9693D3B220C80CD80032A948 /* abc004.cpp in Sources */,
 				9693D3DA20C81D670032A948 /* abc024.cpp in Sources */,
 				9693D3AA20C80C460032A948 /* abc001.cpp in Sources */,
