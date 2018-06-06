@@ -9,6 +9,16 @@
 using namespace std;
 
 int main(void){
-    //
+    int num[3];
+    cin >> num[0] >> num[1] >> num[2];
+    int count = 0;
+    for(int i=0;i<3;i++){
+        if(num[i]==5){count++;}
+    }
+    if(count==2){
+        cout << "YES" << endl;
+    }else{
+        cout << "NO" << endl;
+    }
     return 0;
 }
