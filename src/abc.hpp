@@ -19,5 +19,6 @@
 //prototype declaration
 void abc001A(); //https://abc001.contest.atcoder.jp/tasks/abc001_1
 void abc002A(); //https://abc002.contest.atcoder.jp/tasks/abc002_1
+void abc003A();
 
 #endif /* abc_hpp */
