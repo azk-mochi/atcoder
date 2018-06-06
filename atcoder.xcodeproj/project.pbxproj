@@ -73,6 +73,7 @@
 		9693D3E120C820310032A948 /* abc028.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc028.cpp; sourceTree = "<group>"; };
 		9693D3E320C820EE0032A948 /* abc029.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc029.cpp; sourceTree = "<group>"; };
 		9693D3E520C8211A0032A948 /* abc030.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc030.cpp; sourceTree = "<group>"; };
+		9693D3E720C823B90032A948 /* open_webpage.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = open_webpage.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 		9693D39020C8050E0032A948 = {
 			isa = PBXGroup;
 			children = (
+				9693D3E720C823B90032A948 /* open_webpage.sh */,
 				9693D3A020C805E30032A948 /* src */,
 			);
 			sourceTree = "<group>";
