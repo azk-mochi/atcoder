@@ -11,3 +11,9 @@ int A(){
     cout << (10000 * ((n*(n+1))/2)) / n << endl;
 }
 
+int main(void){
+    string s, t;
+    cin >> s >> t;
+    //わからない。あとで。
+    return 0;
+}
