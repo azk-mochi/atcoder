@@ -1,9 +1,19 @@
-//
-//  abc098.cpp
-//  atcoder
-//
-//  Created by 越川 健一 on 2018/06/07.
-//  Copyright © 2018年 reishoku. All rights reserved.
-//
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
+#include <cmath>
 
-#include <stdio.h>
+using namespace std;
+
+int main(void){
+    int a, b;
+    cin >> a >> b;
+    vector<int> calc(3);
+    calc[0] = a+b;
+    calc[1] = a-b;
+    calc[2] = a*b;
+    sort(calc.begin(),calc.end());
+    cout << calc[2] << endl;
+    return 0;
+}
