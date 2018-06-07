@@ -1,9 +1,29 @@
-//
-//  abc097.cpp
-//  atcoder
-//
-//  Created by 越川 健一 on 2018/06/07.
-//  Copyright © 2018年 reishoku. All rights reserved.
-//
+#include <iostream>
+using namespace std;
 
-#include <stdio.h>
+int distance(int m, int n){
+    return abs(m-n);
+}
+
+bool can_make_triangle(int a, int b, int d){
+    if(distance(a,b)<=d){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+int main(void){
+    int a,b,c,d;
+    cin >> a >> b >> c >> d;
+    if(can_make_triangle(a,c,d)){
+        cout << "Yes" << endl;
+        return 0;
+    }else{
+        if(can_make_triangle(a,b,d) && can_make_triangle(b,c,d)){ //間接
+            cout << "Yes" << endl;
+        }else{
+            cout << "No" << endl;
+        }}
+    return 0;
+}
