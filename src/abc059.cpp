@@ -9,6 +9,9 @@
 using namespace std;
 
 int main(void){
-    //
+    string a, b, c;
+    cin >> a >> b >> c;
+    //わからんのでパス
+    cout << toupper(a[0]) << toupper(b[0]) << toupper(c[0]) << endl;
     return 0;
 }
