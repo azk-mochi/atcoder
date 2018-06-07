@@ -1,9 +1,21 @@
-//
-//  abc096.cpp
-//  atcoder
-//
-//  Created by 越川 健一 on 2018/06/07.
-//  Copyright © 2018年 reishoku. All rights reserved.
-//
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
+#include <cmath>
 
-#include <stdio.h>
+using namespace std;
+
+int main(void){
+    int a, b;
+    cin >> a >> b;
+    
+    if(b<a){
+        cout << a - 1 << endl;
+    }else{
+        cout << a << endl;
+    }
+    
+    return 0;
+}
+
