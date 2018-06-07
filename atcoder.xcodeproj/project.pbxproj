@@ -210,6 +210,7 @@
 		9693D3E720C823B90032A948 /* open_webpage.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = open_webpage.sh; sourceTree = "<group>"; };
 		96B6849820C8FA4000137407 /* abc094.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc094.cpp; sourceTree = "<group>"; };
 		96B684A020C8FA8F00137407 /* abc098.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abc098.cpp; sourceTree = "<group>"; };
+		96B684A320C8FCC900137407 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +227,7 @@
 		9693D39020C8050E0032A948 = {
 			isa = PBXGroup;
 			children = (
+				96B684A320C8FCC900137407 /* README.md */,
 				9693D3E720C823B90032A948 /* open_webpage.sh */,
 				9693D3A020C805E30032A948 /* src */,
 			);
